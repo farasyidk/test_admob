@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "745609098",
+    "firebase_url": "https://ketemuin.firebaseio.com",
+    "project_id": "ketemuin",
+    "storage_bucket": "ketemuin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745609098:android:04ff1c4eefe80746",
+        "android_client_info": {
+          "package_name": "rasyidk.fa.ketemuin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745609098-jn6fud3c6fm6gm3m44fmk7ot1aouo3m1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rasyidk.fa.ketemuin",
+            "certificate_hash": "20cf4c7fcd793765507cd28ca893086056ec910a"
+          }
+        },
+        {
+          "client_id": "745609098-8c536vn716d5au95lkamsbuo791o3vfl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJAJfO7KUMmCcwV6UI0QQhXERz3LFewjA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745609098-8c536vn716d5au95lkamsbuo791o3vfl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
