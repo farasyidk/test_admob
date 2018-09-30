@@ -20,12 +20,12 @@ class MainActivity : AppCompatActivity(), RewardedVideoAdListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        MobileAds.initialize(this, "ca-app-pub-1394596689730391~4054980377")
+        MobileAds.initialize(this, "ca-app-pub-xxx")
         rewardedVideoAd = MobileAds.getRewardedVideoAdInstance(this@MainActivity)
         rewardedVideoAd.rewardedVideoAdListener = this
 
         mInterstitialAd = InterstitialAd(this@MainActivity)
-        mInterstitialAd.adUnitId = "ca-app-pub-1394596689730391/4619879160"
+        mInterstitialAd.adUnitId = "ca-app-pub-xxx"
 
         mAdView.loadAd(adRequest)
         loadRewardedVideoAd()
@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity(), RewardedVideoAdListener {
     }
 
     private fun loadRewardedVideoAd() {
-        rewardedVideoAd.loadAd("ca-app-pub-1394596689730391/8404740181", adRequest)
+        rewardedVideoAd.loadAd("ca-app-pub-xxx", adRequest)
     }
 
     private fun loadRewardedPamfletAd() {
